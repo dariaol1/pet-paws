@@ -1,0 +1,20 @@
+.btn {
+  display: inline-block;
+  padding: 17px 36px 16px;
+  min-width: 150px;
+  height: 50px;
+  background-color: var(--efbd68);
+  border-radius: 50px;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--333333);
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 14px;
+  transition: background-color 0.2s ease-in, color 0.2s ease-in;
+}
+
+.btn:hover {
+  color: #fff;
+  background-color: var(--333333);
+}

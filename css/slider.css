@@ -1,0 +1,32 @@
+.section-slider {
+  margin-bottom: 120px;
+}
+
+.slide-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.slide-item__img {
+  margin-bottom: 46px;
+}
+
+.slide-item__text {
+  text-align: center;
+  max-width: 1097px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 200%;
+  color: var(--333333);
+  margin-bottom: 31px;
+}
+
+.slide-item__name {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 125%;
+  text-transform: capitalize;
+  color: var(--333333);
+}
