@@ -30,3 +30,12 @@
   text-transform: capitalize;
   color: var(--333333);
 }
+
+.swiper-button-next.swiper-button-disabled, .swiper-button-prev.swiper-button-disabled {
+  opacity: 1 !important;
+  color: var(--333333) !important;
+}
+
+.swiper-button-next, .swiper-rtl, .swiper-button-prev {
+  color: var(--efbd68) !important;
+}
