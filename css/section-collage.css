@@ -1,0 +1,50 @@
+.section-collage {
+  margin-bottom: 120px;
+}
+
+.collage-wrapper {
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 3.4%;
+  /* gap: 50px; */
+  max-width: 1530px;
+}
+
+.collage-wrapper::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -50px;
+  transform: translate(-100%, 0);
+  width: 41px;
+  height: 68px;
+  background-image: url('./../img/collage/vector-01.svg');
+  background-repeat: no-repeat;
+}
+
+.collage-wrapper::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: -34px;
+  transform: translate(100%, 0);
+  width: 47px;
+  height: 54px;
+  background-image: url('./../img/collage/vector-02.svg');
+  background-repeat: no-repeat;
+}
+
+.collage__img {
+  overflow: hidden;
+  border-radius: 120.5px;
+  flex: 1;
+  flex-grow: 0.8;
+}
+
+.collage__img--huge {
+  border-radius: 135px;
+  flex: 1;
+}
